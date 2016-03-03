@@ -263,7 +263,7 @@
           "imageReference":
           {
             "publisher": "cloudera",
-            "offer": "cloudera-centos-6",
+            "offer": "cloudera-centos-base-image",
             "sku": "CLOUDERA-CENTOS-6-preview",
             "version": "6.7.0"
           },
