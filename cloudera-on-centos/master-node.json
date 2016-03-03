@@ -334,8 +334,8 @@
           {
             "publisher": "cloudera",
             "offer": "cloudera-centos-6",
-            "sku": "CLOUDERA-CENTOS-6",
-            "version": "1.0.0"
+            "sku": "CLOUDERA-CENTOS-6-preview",
+            "version": "6.7.0"
           },
           "osDisk":
           {
