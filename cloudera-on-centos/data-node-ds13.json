@@ -233,7 +233,7 @@
       "plan": {
         "name": "cloudera-centos-6",
         "publisher": "cloudera",
-        "product": "cloudera-centos-6"
+        "product": "cloudera-centos-6-preview"
       },
       "location": "[parameters('location')]",
       "copy": {
@@ -263,9 +263,9 @@
           "imageReference":
           {
             "publisher": "cloudera",
-            "offer": "cloudera-centos-6",
-            "sku": "CLOUDERA-CENTOS-6",
-            "version": "1.0.0"
+            "offer": "cloudera-centos-6-preview",
+            "sku": "cloudera-centos-6",
+            "version": "6.7.0"
           },
           "osDisk":
           {
