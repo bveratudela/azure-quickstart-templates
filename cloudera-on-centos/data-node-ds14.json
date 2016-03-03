@@ -231,9 +231,9 @@
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[concat(variables('vmName'), copyIndex())]",
       "plan": {
-        "name": "cloudera-centos-6",
+        "name": "cloudera-centos-6-preview",
         "publisher": "cloudera",
-        "product": "cloudera-centos-6"
+        "product": "cloudera-centos-base-image"
       },
       "location": "[parameters('location')]",
       "copy": {
